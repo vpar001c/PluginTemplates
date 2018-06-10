@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTemplates", "PluginTemplates\PluginTemplates.csproj", "{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCE6E301-515C-4FF0-AE11-3E30CBF0AA5F}
+	EndGlobalSection
+EndGlobal
