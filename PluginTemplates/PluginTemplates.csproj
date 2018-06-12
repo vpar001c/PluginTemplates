@@ -54,10 +54,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Customer Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Is Other X Order.cs" />
+    <Content Include="Order Extensions.cs" />
+    <Content Include="Is Distributor Is Commissionable.cs" />
+    <Content Include="Is Distributor Is Customer Paid On.cs" />
+    <Content Include="Is In Tree Paid On.cs" />
+    <Content Include="Is In Tree Paid To Qualifier.cs" />
+    <Content Include="Is Paid Rank.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="PaidOnQualification.cs" />
+    <Content Include="PaidOnQualification.cs" />
     <None Include="PluginTemplates.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -6,21 +6,18 @@
     <Icon>PluginTemplates.ico</Icon>
     <TemplateID>483b1d27-0ccb-4216-b239-dda4d00e8130</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <AppliesTo>CSharp</AppliesTo>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-     <DefaultName>PaidOnQualification.cs</DefaultName>
-    <CreateNewFolder>true</CreateNewFolder>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-  </TemplateData>  
+    <SortOrder>10</SortOrder>
+    <TemplateGroupID>WinRT-Managed</TemplateGroupID>
+  </TemplateData>
   <TemplateContent>
     <References>
       <Reference>
         <Assembly>System</Assembly>
       </Reference>
-    </References>    
-    
-      <ProjectItem ReplaceParameters="true"  TargetFileName="PaidOnQualification.cs">PaidOnQualification.cs</ProjectItem>
+    </References>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">PaidOnQualification.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
+
