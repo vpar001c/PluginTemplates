@@ -55,6 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CustomerExtensions.cs" />
+    <Content Include="PaidOnQualification.ico" />
+    <Content Include="PaidOnQualification.vstemplate" />
     <Content Include="PaidOnQualifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="IsOtherXOrder.cs" />
