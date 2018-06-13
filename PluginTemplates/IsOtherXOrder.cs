@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 using TeqTank.Applications.Mako;
+$if$ ($targetframeworkversion$ >= 3.5)using System.Linq;
+$endif$using System.Text;
 
-namespace FinalMakoTestPlan
+namespace $rootnamespace$
 {
-    public class IsOther1Order : OrderQualifier
+	public class $safeitemrootname$ : OrderQualifier
     {
         public override string Descr()
         {

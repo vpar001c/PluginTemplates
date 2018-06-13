@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 using TeqTank.Applications.Mako;
+$if$ ($targetframeworkversion$ >= 3.5)using System.Linq;
+$endif$using System.Text;
 
-namespace FinalMakoTestPlan
+namespace $rootnamespace$
 {
-    public class IsInEnrollerTreePaidOn : PaidOnQualifier
+	public class $safeitemrootname$ : PaidOnQualifier
     {
         public override string Descr()
         {
