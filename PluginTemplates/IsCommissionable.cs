@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using TeqTank.Applications.Mako;
 $if$ ($targetframeworkversion$ >= 3.5)using System.Linq;
@@ -10,12 +10,12 @@ namespace $rootnamespace$
     {
         public override string Descr()
         {
-            return string.Format("Customer must be a valid Customer Type - Distributor");
+            return string.Format("Customer must be valid Customer Status to earn Commissions");
         }
 
         public override bool Qualified(PaidToArgs e)
         {
-            return e.PaidTo.IsDistributor();
+            return e.PaidTo.IsCommissionable();
         }
         public override bool ShowReportCard()
         {
@@ -23,5 +23,3 @@ namespace $rootnamespace$
         }
     }
 }
-
-

@@ -52,14 +52,32 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TeqTank.Applications.Mako">
+      <HintPath>..\..\PlugIn-Mako2\Teqtank.Plugin\packages\TeqTank.Applications.Mako.1.0.39-CI00091\lib\net461\TeqTank.Applications.Mako.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="CustomerExtensions.cs" />
-    <Content Include="PaidOnQualification.ico" />
-    <Content Include="PaidOnQualification.vstemplate" />
     <Content Include="PaidOnQualifier.cs" />
+    <Content Include="IsOther3Order.cs" />
+    <Content Include="IsOther9Order.cs" />
+    <Content Include="IsOther8Order.cs" />
+    <Content Include="IsOther7Order.cs" />
+    <Content Include="IsOther6Order.cs" />
+    <Content Include="IsOther5Order.cs" />
+    <Content Include="IsOther4Order.cs" />
+    <Content Include="IsOther2Order.cs" />
+    <Content Include="IsOther10Order.cs" />
+    <Content Include="IsCommissionable.cs" />
+    <Content Include="IsCustomerPaidOn.cs" />
+    <Content Include="IsInBinaryTreePaidOn.cs" />
+    <Content Include="IsInMatrixTreePaidOn.cs" />
+    <Content Include="IsInUnilevelTreePaidOn.cs" />
+    <Content Include="IsInBInaryTree.cs" />
+    <Content Include="IsInMatrixTree.cs" />
+    <Content Include="IsInUnilevelTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="IsOtherXOrder.cs" />
+    <Content Include="IsOther1Order.cs" />
     <Content Include="OrderExtensions.cs" />
     <Content Include="IsDistributorIsCommissionable.cs" />
     <Content Include="IsDistributorIsCustomerPaidOn.cs" />

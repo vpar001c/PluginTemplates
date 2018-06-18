@@ -19,8 +19,26 @@
       <Reference>
         <Assembly>System</Assembly>
       </Reference>
-    </References>    
-    
-      <ProjectItem ReplaceParameters="true"  TargetFileName="PaidOnQualification.cs">PaidOnQualification.cs</ProjectItem>
+    </References>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs"  ReplaceParameters="true">PaidOnQualification.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">PaidOnQualifier.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">OrderExtensions.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsPaidRank.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsInTreePaidToQualifier.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsInTreePaidOn.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsDistributorIsCustomerPaidOn.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsDistributorIsCommissionable.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">CustomerExtensions.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther1Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther2Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther3Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther4Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther5Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther6Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther7Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther8Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther9Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther10Order.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
+
