@@ -73,9 +73,10 @@
     <Content Include="IsInBinaryTreePaidOn.cs" />
     <Content Include="IsInMatrixTreePaidOn.cs" />
     <Content Include="IsInUnilevelTreePaidOn.cs" />
-    <Content Include="IsInBInaryTree.cs" />
+    <Content Include="IsInBinaryTree.cs" />
     <Content Include="IsInMatrixTree.cs" />
     <Content Include="IsInUnilevelTree.cs" />
+    <Content Include="CommissionQualified.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="IsOther1Order.cs" />
     <Content Include="OrderExtensions.cs" />

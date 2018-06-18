@@ -39,6 +39,14 @@
     <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther8Order.cs</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther9Order.cs</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsOther10Order.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsInBinaryTreePaidOn.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsInUnilevelTreePaidOn.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsInMatrixTreePaidOn.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsInMatrixTree.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsInBinaryTree.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsInUnilevelTree.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">IsCommissionable.cs</ProjectItem>
+
   </TemplateContent>
 </VSTemplate>
 
