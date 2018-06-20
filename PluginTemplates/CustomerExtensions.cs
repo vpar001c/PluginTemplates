@@ -6,7 +6,7 @@ $endif$using System.Text;
 
 namespace $rootnamespace$
 {
-	public static class $safeitemrootname$
+	public static class $safeitemrootname$ : PaidToQualifier
     {
         public static bool IsCustomer(this Customer c)
         {
