@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaidOnQualification", "Paid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPaidRank", "IsPaidRank\IsPaidRank.csproj", "{19C37B70-6233-4053-847E-54429532CA56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsDistributorsCommissionable", "IsDistributorsCommissionable\IsDistributorsCommissionable.csproj", "{2E4F3B5B-FCFC-4623-9F4B-A9F93DB62C31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsDistributorsIsCommissionable", "IsDistributorsCommissionable\IsDistributorsIsCommissionable.csproj", "{2E4F3B5B-FCFC-4623-9F4B-A9F93DB62C31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsDistributorIsCustomerPaidOn", "IsDistributorIsCustomerPaidOn\IsDistributorIsCustomerPaidOn.csproj", "{88C84FB4-8CEB-4981-8B21-BDC6069EB652}"
 EndProject
