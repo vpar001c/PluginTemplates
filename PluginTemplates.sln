@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTemplates", "PluginTemplates\PluginTemplates.csproj", "{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaidOnQualification", "PaidOnQualification\PaidOnQualification.csproj", "{B9930116-935C-48C0-AC8C-DD1B15F78124}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPaidRank", "IsPaidRank\IsPaidRank.csproj", "{19C37B70-6233-4053-847E-54429532CA56}"
@@ -65,10 +63,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F9DC2C9-8F04-49BE-8F44-1FA90308D2D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B9930116-935C-48C0-AC8C-DD1B15F78124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9930116-935C-48C0-AC8C-DD1B15F78124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9930116-935C-48C0-AC8C-DD1B15F78124}.Release|Any CPU.ActiveCfg = Release|Any CPU
