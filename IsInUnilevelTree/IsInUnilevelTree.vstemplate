@@ -1,23 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>PluginTemplates</Name>
-    <Description>PluginTemplates</Description>
-    <Icon>PluginTemplates.ico</Icon>
-    <TemplateID>483b1d27-0ccb-4216-b239-dda4d00e8130</TemplateID>
+    <Name>IsInUnilevelTree</Name>
+    <Description>IsInUnilevelTree</Description>
+    <Icon>IsInUnilevelTree.ico</Icon>
+    <TemplateID>dfcbf7ee-e8cc-4fca-b827-6be23e2a99e4</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <AppliesTo>CSharp</AppliesTo>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <CreateNewFolder>true</CreateNewFolder>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-  </TemplateData>  
+    <DefaultName>IsInUnilevelTree.cs</DefaultName>
+  </TemplateData>
   <TemplateContent>
     <References>
       <Reference>
         <Assembly>System</Assembly>
       </Reference>
     </References>
+    <ProjectItem  SubType="Code" TargetFileName="IsInUnilevelTree.cs"  ReplaceParameters="true">IsInUnilevelTree.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

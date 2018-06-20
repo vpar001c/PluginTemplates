@@ -1,23 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>PluginTemplates</Name>
-    <Description>PluginTemplates</Description>
-    <Icon>PluginTemplates.ico</Icon>
-    <TemplateID>483b1d27-0ccb-4216-b239-dda4d00e8130</TemplateID>
+    <Name>IsOther8Order</Name>
+    <Description>IsOther8Order</Description>
+    <Icon>IsOther8Order.ico</Icon>
+    <TemplateID>9e041c54-8674-490e-b62a-4c56d5d992e2</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <AppliesTo>CSharp</AppliesTo>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <CreateNewFolder>true</CreateNewFolder>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-  </TemplateData>  
+    <DefaultName>IsOther8Order.cs</DefaultName>
+  </TemplateData>
   <TemplateContent>
     <References>
       <Reference>
         <Assembly>System</Assembly>
       </Reference>
     </References>
+    <ProjectItem SubType="Code" TargetFileName="IsOther8Order.cs"  ReplaceParameters="true">IsOther8Order.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

@@ -1,23 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>PluginTemplates</Name>
-    <Description>PluginTemplates</Description>
-    <Icon>PluginTemplates.ico</Icon>
-    <TemplateID>483b1d27-0ccb-4216-b239-dda4d00e8130</TemplateID>
+    <Name>IsOther4Order</Name>
+    <Description>IsOther4Order</Description>
+    <Icon>IsOther4Order.ico</Icon>
+    <TemplateID>2ab9c1fa-9827-42d0-a203-5f36b8f24596</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <AppliesTo>CSharp</AppliesTo>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <CreateNewFolder>true</CreateNewFolder>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-  </TemplateData>  
+    <DefaultName>IsOther4Order.cs</DefaultName>
+  </TemplateData>
   <TemplateContent>
     <References>
       <Reference>
         <Assembly>System</Assembly>
       </Reference>
     </References>
+    <ProjectItem SubType="Code" TargetFileName="IsOther4Order.cs"  ReplaceParameters="true">IsOther4Order.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

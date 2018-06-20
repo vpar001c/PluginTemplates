@@ -1,23 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>PluginTemplates</Name>
-    <Description>PluginTemplates</Description>
-    <Icon>PluginTemplates.ico</Icon>
-    <TemplateID>483b1d27-0ccb-4216-b239-dda4d00e8130</TemplateID>
+    <Name>IsOther6Order</Name>
+    <Description>IsOther6Order</Description>
+    <Icon>IsOther6Order.ico</Icon>
+    <TemplateID>8b19e6e6-af4f-4c39-b143-ed212e6c1e68</TemplateID>
     <ProjectType>CSharp</ProjectType>
-    <AppliesTo>CSharp</AppliesTo>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <CreateNewFolder>true</CreateNewFolder>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-  </TemplateData>  
+    <DefaultName>IsOther6Order.cs</DefaultName>
+  </TemplateData>
   <TemplateContent>
     <References>
       <Reference>
         <Assembly>System</Assembly>
       </Reference>
     </References>
+    <ProjectItem SubType="Code" TargetFileName="IsOther6Order.cs"  ReplaceParameters="true">IsOther6Order.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

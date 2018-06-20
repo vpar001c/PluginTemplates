@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>PluginTemplates</Name>
-    <Description>PluginTemplates</Description>
-    <Icon>PluginTemplates.ico</Icon>
-    <TemplateID>483b1d27-0ccb-4216-b239-dda4d00e8130</TemplateID>
+    <Name>IsPaidRank</Name>
+    <Description>IsPaidRank</Description>
+    <Icon>IsPaidRank.ico</Icon>
+    <TemplateID>a96f4901-74ee-4e95-acee-f82acf422ffd</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <SortOrder>10</SortOrder>
-    <TemplateGroupID>WinRT-Managed</TemplateGroupID>
+    <DefaultName>IsPaidRank.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>
@@ -17,7 +16,6 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem SubType="Code" TargetFileName="$safeitemrootname$.cs" ReplaceParameters="true">PaidOnQualification.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="IsPaidRank.cs"  ReplaceParameters="true">IsPaidRank.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
-
