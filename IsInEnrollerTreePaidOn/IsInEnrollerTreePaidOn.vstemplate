@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
-      <TemplateData>
-    <Name>IsPaidRank</Name>
-    <Description>IsPaidRank</Description>
-    <Icon>IsPaidRank.ico</Icon>
-    <TemplateID>a96f4901-74ee-4e95-acee-f82acf422ffd</TemplateID>
+  <TemplateData>
+    <Name>IsInEnrollerTreePaidOn</Name>
+    <Description>IsInEnrollerTreePaidOn</Description>
+    <Icon>IsInEnrollerTreePaidOn.ico</Icon>
+    <TemplateID>2d043506-bfea-42a1-abc4-ca1c22970f0d</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>IsPaidRank.cs</DefaultName>
+    <DefaultName>IsInEnrollerTreePaidOn.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>
@@ -16,6 +16,6 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem SubType="Code" TargetFileName="IsPaidRank.cs"  ReplaceParameters="true">IsPaidRank.cs</ProjectItem>
+    <ProjectItem  SubType="Code" TargetFileName="IsInEnrollerTreePaidOn.cs"  ReplaceParameters="true">IsInEnrollerTreePaidOn.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

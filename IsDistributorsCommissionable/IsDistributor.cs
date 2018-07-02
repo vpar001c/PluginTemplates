@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using TeqTank.Applications.Mako;
 $if$ ($targetframeworkversion$ >= 3.5)using System.Linq;
+using TeqTank.Application.Mako;
 $endif$using System.Text;
 
 namespace $rootnamespace$
 {
-	public class $safeitemrootname$ : PaidToQualifier
+	public static class $safeitemrootname$: PaidToQualifier
     {
         public override string Descr()
         {
@@ -23,5 +23,3 @@ namespace $rootnamespace$
         }
     }
 }
-
-

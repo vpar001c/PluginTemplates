@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>IsDistributorIsCustomerPaidOn</Name>
-    <Description>IsDistributorIsCustomerPaidOn</Description>
-    <Icon>IsDistributorIsCustomerPaidOn.ico</Icon>
-    <TemplateID>34754b3e-b8fb-4920-a275-2f04c2634214</TemplateID>
+    <Name>IsDistributor</Name>
+    <Description>IsDistributor</Description>
+    <Icon>IsDistributor.ico</Icon>
+    <TemplateID>8c8bea0f-13f2-4704-ab64-ff2d74fce4cc</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>IsDistributorIsCustomerPaidOn.cs</DefaultName>
+    <DefaultName>IsDistributor.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>
@@ -16,6 +16,6 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem  SubType="Code" TargetFileName="IsDistributorIsCustomerPaidOn.cs"  ReplaceParameters="true">IsDistributorIsCustomerPaidOn.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="IsDistributor.cs"  ReplaceParameters="true">IsDistributor.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

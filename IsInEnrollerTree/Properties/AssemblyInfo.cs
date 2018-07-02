@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IsDistributorPaidOn")]
+[assembly: AssemblyTitle("IsInEnrollerTree")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("vpar001c")]
-[assembly: AssemblyProduct("IsDistributorPaidOn")]
+[assembly: AssemblyProduct("IsInEnrollerTree")]
 [assembly: AssemblyCopyright("Copyright © vpar001c 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("88c84fb4-8ceb-4981-8b21-bdc6069eb652")]
+[assembly: Guid("42a46ea9-d698-4a01-8182-cc5abfeeb174")]
 
 // Version information for an assembly consists of the following four values:
 //

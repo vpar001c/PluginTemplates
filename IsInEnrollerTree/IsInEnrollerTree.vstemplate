@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>IsDistributorsIsCommissionable</Name>
-    <Description>IsDistributorsIsCommissionable</Description>
-    <Icon>IsDistributorsIsCommissionable.ico</Icon>
-    <TemplateID>8c8bea0f-13f2-4704-ab64-ff2d74fce4cc</TemplateID>
+    <Name>IsInEnrollerTree</Name>
+    <Description>IsInEnrollerTree</Description>
+    <Icon>IsInEnrollerTree.ico</Icon>
+    <TemplateID>5aeb1f9b-04a5-4e0c-bc99-5af960643d6f</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>IsDistributorsIsCommissionable.cs</DefaultName>
+    <DefaultName>IsInEnrollerTree.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>
@@ -16,6 +16,6 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem SubType="Code" TargetFileName="IsDistributorsIsCommissionable.cs"  ReplaceParameters="true">IsDistributorsIsCommissionable.cs</ProjectItem>
+    <ProjectItem  SubType="Code" TargetFileName="IsInEnrollerTree.cs"  ReplaceParameters="true">IsInEnrollerTree.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

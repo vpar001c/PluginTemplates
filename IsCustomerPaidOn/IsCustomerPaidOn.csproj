@@ -52,6 +52,9 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TeqTank.Applications.Mako">
+      <HintPath>..\..\PlugIn-Mako2\Teqtank.Plugin\packages\TeqTank.Applications.Mako.1.0.39-CI00091\lib\net461\TeqTank.Applications.Mako.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
